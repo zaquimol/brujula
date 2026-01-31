@@ -1,9 +1,9 @@
 // Define a scene for your game
 class MainScene extends Phaser.Scene {
     preload() {
-        // Load assets here (images, sounds, etc.)
+        //Cargar los activos aqui (imagenes, sonidos, etc)
         //Cargar assets
-        this.load.image('logo', 'assets/phaser-logo.png'); // You need to have this asset in an assets folder
+        this.load.image('logo', 'activos/logo-juego.png');
     }
 
     create() {
